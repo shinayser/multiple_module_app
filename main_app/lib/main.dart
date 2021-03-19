@@ -61,11 +61,15 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void feature1() {
-    print('Feature 1b');
+    print('Feature 1');
   }
 
   void masterFeature() {
     print('Master feature');
+  }
+
+  void feature2(int feature) {
+    print('Feature 2');
   }
 
   @override

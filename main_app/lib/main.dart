@@ -60,7 +60,11 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  void masterFeature(){
+  void feature1() {
+    print('Feature 1');
+  }
+
+  void masterFeature() {
     print('Master feature');
   }
 
